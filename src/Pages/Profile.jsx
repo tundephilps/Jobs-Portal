@@ -1,6 +1,6 @@
 import React from "react";
-import Accordions from "./Accordions";
-import "./Profile.scss";
+import Accordions from "../components/Profile/Accordions";
+import "../components/Profile/Profile.scss";
 
 const Profile = () => {
   return (

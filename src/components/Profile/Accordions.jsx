@@ -9,7 +9,6 @@ import Education from "./Education";
 import Work from "./Work";
 import Websites from "./Websites";
 import Upload from "./UploadFile/Upload";
-import { Button } from "react-bootstrap";
 
 export default function Accordions() {
   const [expanded, setExpanded] = React.useState(false);
@@ -37,9 +36,7 @@ export default function Accordions() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            <PersonalData />
-          </Typography>
+          <Typography>{/* <PersonalData /> */}</Typography>
         </AccordionDetails>
       </Accordion>
 
@@ -60,9 +57,7 @@ export default function Accordions() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            <Work />
-          </Typography>
+          <Typography>{/* <Work /> */}</Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion
@@ -82,9 +77,7 @@ export default function Accordions() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            <Upload />
-          </Typography>
+          <Typography>{/* <Upload /> */}</Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion
@@ -104,9 +97,7 @@ export default function Accordions() {
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            <Education />
-          </Typography>
+          <Typography>{/* <Education /> */}</Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion
@@ -121,9 +112,7 @@ export default function Accordions() {
           <Typography sx={{ width: "33%", flexShrink: 0 }}>Websites</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            <Websites />
-          </Typography>
+          <Typography>{/* <Websites /> */}</Typography>
         </AccordionDetails>
       </Accordion>
       <div className="flex items-center justify-center py-10">

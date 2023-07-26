@@ -16,11 +16,10 @@ const style = {
   boxShadow: 24,
 };
 
-export default function BasicModal() {
+function BasicModal() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-
   return (
     <div>
       <Button
@@ -47,3 +46,5 @@ export default function BasicModal() {
     </div>
   );
 }
+
+export default BasicModal;

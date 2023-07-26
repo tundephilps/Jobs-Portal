@@ -5,12 +5,12 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-import JobData from "./JobData";
+//import JobData from "../components/Jobs/JobData";
 
 import { useNavigate } from "react-router";
 
 import { FilledInput, Modal } from "@mui/material";
-import BasicModal from "./BasicModal";
+//import BasicModal from "../components/Jobs/BasicModal";
 
 //import "bootstrap/dist/css/bootstrap.min.css";
 

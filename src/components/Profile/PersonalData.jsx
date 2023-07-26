@@ -4,19 +4,9 @@ import Button from "@mui/joy/Button";
 
 import FormControl from "@mui/joy/FormControl";
 import FormLabel from "@mui/joy/FormLabel";
-
-import { styled } from "@mui/joy/styles";
-import Sheet from "@mui/joy/Sheet";
 import Grid from "@mui/joy/Grid";
 import { MuiTelInput } from "mui-tel-input";
 import { Avatar } from "@mui/material";
-
-const Item = styled(Sheet)(({ theme }) => ({
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: "center",
-  color: theme.vars.palette.text.tertiary,
-}));
 
 const PersonalData = () => {
   const [value, setValue] = useState("");

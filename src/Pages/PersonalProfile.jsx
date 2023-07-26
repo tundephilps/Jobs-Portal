@@ -1,6 +1,6 @@
 import React from "react";
-import ProfileCard from "./ProfileCard";
-import Profilehero from "./Profilehero";
+import ProfileCard from "../components/Profile/PersonalProflie/ProfileCard";
+import Profilehero from "../components/Profile/PersonalProflie/Profilehero";
 
 const PersonalProfile = () => {
   return (
