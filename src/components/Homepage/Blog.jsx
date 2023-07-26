@@ -2,8 +2,8 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <section id="blog" className="scroll-checkpoint">
-      <div className="container">
+    <section id="blog" className="scroll-checkpoint flex flex-col">
+      <div className="container flex lg:flex-row flex-col ">
         <div className="title">
           <h1>
             Latest <br />
@@ -11,8 +11,8 @@ const Blog = () => {
             Blog <br />
           </h1>
         </div>
-        <div className="posts">
-          <div className="post1">
+        <div className="posts ">
+          <div className="post1 ">
             <div className="blog-post-img">
               <div className="date">
                 <h1>24</h1>

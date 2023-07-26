@@ -652,6 +652,12 @@ footer p {
     grid-template-columns: 1fr;
   }
 
+  .post1,
+  .post2,
+  .post3 {
+    grid-template-columns: 1fr !important;
+  }
+
   #portfolio,
   #contact .container {
     display: block;
@@ -689,7 +695,7 @@ footer p {
   .post1,
   .post2,
   .post3 {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
   .blog-post-img {
     min-height: 10em;

@@ -13,7 +13,7 @@ import React from "react";
 const Pricing = () => {
   return (
     <section id="pricing" className="scroll-checkpoint">
-      <div className="container">
+      <div className="container flex lg:flex-row flex-col">
         <div className="title">
           <h1>
             Our <br />

@@ -18,7 +18,7 @@ import { FiPackage } from "react-icons/fi";
 const Services = () => {
   return (
     <section id="services" className="scroll-checkpoint">
-      <div className="container">
+      <div className="container flex lg:flex-row flex-col">
         <div className="title">
           <h1>
             Our <br />

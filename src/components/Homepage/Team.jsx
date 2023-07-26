@@ -6,7 +6,7 @@ import person3 from "../../images/person3.jpg";
 const Team = () => {
   return (
     <section id="our-team" className="scroll-checkpoint">
-      <div className="container">
+      <div className="container flex lg:flex-row flex-col">
         <div className="title">
           <h1>
             Creative <br />
