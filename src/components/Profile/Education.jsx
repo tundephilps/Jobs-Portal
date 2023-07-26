@@ -4,8 +4,17 @@ import { Input, Textarea } from "@mui/joy";
 import FormLabel from "@mui/joy/FormLabel";
 
 import Button from "@mui/joy/Button";
+import { styled } from "@mui/joy/styles";
+import Sheet from "@mui/joy/Sheet";
 import Grid from "@mui/joy/Grid";
 import { Checkbox, FormControlLabel } from "@mui/material";
+
+const Item = styled(Sheet)(({ theme }) => ({
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: "center",
+  color: theme.vars.palette.text.tertiary,
+}));
 
 const Education = () => {
   return (

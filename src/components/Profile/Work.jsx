@@ -7,8 +7,17 @@ import Divider from "@mui/joy/Divider";
 import Select from "@mui/joy/Select";
 import Option from "@mui/joy/Option";
 import Button from "@mui/joy/Button";
+import { styled } from "@mui/joy/styles";
+import Sheet from "@mui/joy/Sheet";
 import Grid from "@mui/joy/Grid";
 import { Checkbox, FormControlLabel } from "@mui/material";
+
+const Item = styled(Sheet)(({ theme }) => ({
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: "center",
+  color: theme.vars.palette.text.tertiary,
+}));
 
 const Work = () => {
   const [currency, setCurrency] = React.useState("dollar");
